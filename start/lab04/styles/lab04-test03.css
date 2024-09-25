@@ -1,1 +1,109 @@
-/* add styles here */
+* {
+    box-sizing: border-box;
+}
+
+body, section, div, h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    background-color: #e4e7eb;
+    padding: 20px 50px;
+    font-weight: 300;
+    background-color: white;
+}
+
+section {
+    padding: 10px;
+}
+
+#typography div {
+    margin: 20px;
+}
+
+#colors {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: deeppink;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.circle {
+    border-radius: 50%;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    padding: 40px 25px;
+}
+
+.color1 {
+    background-color: #f62f5e;
+}
+
+.color2 {
+    background-color: #f1ad3d;
+}
+
+.color3 {
+    background-color: #6ebdca;
+}
+
+.color4 {
+    background-color: #eefc91;
+}
+
+.color5 {
+    background-color: #F7ECEB;
+}
+
+.details {
+    font-size: 16px;
+    color: silver;
+    font-style: italic;
+}
+
+h2, h3, h4 {
+    font-family: Oswald, sans-serif;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.bodytext, .asidetext {
+    font-family: "Open Sans", sans-serif;
+}
+
+.bodytext {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.asidetext {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+}
