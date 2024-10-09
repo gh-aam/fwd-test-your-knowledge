@@ -1,9 +1,41 @@
-
 body {
-   background-color: white;
-   margin: 1em;
-   font-family: 'Roboto Condensed', sans-serif;
-   font-weight: 400;    
-   font-size: 16px;
+    background-color: white;
+    margin: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;    
+    font-size: 16px;
 }
 
+table {
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th {
+    background-color: #EDEDED;
+    padding: 0;
+    color: #828282;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+th:nth-child(2), td:nth-child(2) {
+    width: 200px;
+}
+
+th:nth-child(1), td:nth-child(1) {
+    padding-left: 24px;
+}
+
+td {
+    border-bottom: solid 2px #EDEDED;
+}
+
+th, td {
+    width: 50px;
+}
+
+tr {
+    padding: 12px 0;
+    height: 40px;
+}
