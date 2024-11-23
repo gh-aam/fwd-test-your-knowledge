@@ -1,51 +1,83 @@
-html { box-sizing: border-box; }
+html {
+    box-sizing: border-box;
+}
+
 *, *:before, *:after {
-box-sizing: inherit;
-}   
+    box-sizing: inherit;
+}
 
 body {
-   padding: 0;
-   margin: 0;
-}
-header {
-   color: white;         
-}
-header h2 {
-   font-size: 36px;
-   margin: 0.5em 0 0 0.5em ;
-}
-header nav {
-   font-size: 48px;
-   margin: 0.5em 0.5em 0 0;
+    padding: 0;
+    margin: 0;
+    background-image: url('images/P6120375.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
+header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    font-size: 36px;
+    margin: 0.5em 0 0 0.5em ;
+}
+
+header nav {
+    font-size: 48px;
+    margin: 0.5em 0.5em 0 0;
+}
  
 main form {
-   width: 40em;
-   height: 80vh;   
-   color: white;            
+    width: 40em;
+    height: 80vh;   
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-main label {
-   display: inline-block;
-   height: 1.75em;
-   padding: 0.25em 0.25em;
-   font-size: 32px;
-   background-color: teal;
+
+label {
+    display: inline-block;
+    height: 1.95em;
+    padding: 0.45em 1.3em;
+    font-size: 32px;
+    background-color: teal;
+    flex-basis: 16em;
+    font-weight: 400;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
+
 input[type="search"], input[type="submit"] {
-   display: inline-block;   
-   height: 3.5em;
-   padding: 0.25em;
-   font-size: 18px;
+    display: inline-block;   
+    height: 3.5em;
+    padding: 0.25em;
+    font-size: 18px;
 }
+
+input[type="search"] {
+    flex-basis: 36em;
+    border: 0;
+}
+
 input[type="submit"] {
-   color: white;
-   background-color: #DA127D;
-   border: 0;
-   border-top-right-radius: 5px;
-   border-bottom-right-radius: 5px;      
+    color: white;
+    background-color: #DA127D;
+    border: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    flex-basis: 10em;
+    font-weight: 600;
 }
 
-/* add your styles below */
-
-/* the filename for the background image is images/P6120375.jpg  */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
