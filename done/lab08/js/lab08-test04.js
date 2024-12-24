@@ -9,7 +9,7 @@ let strCountries = countries.join(';');
 console.log(strCountries);
 
 // check if these are arrays
-console.log(Array.isArray(countries), Array.isArray(strCountries))
+console.log(Array.isArray(countries), Array.isArray(strCountries));
 
 //  sort a simple array 
 countries.sort();
@@ -84,7 +84,7 @@ for (let c of colors) {
 
 console.log('---------------------');
 
-// use a loop output using document.write a unordered
+// use a loop output using document.write an unordered
 // list of links to the galleries in the galleries array.
 // Make the label of the link the name property, and the href
 // the url property
