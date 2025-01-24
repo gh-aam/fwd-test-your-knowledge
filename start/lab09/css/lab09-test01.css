@@ -32,17 +32,9 @@ textarea, input {
     margin: 0;
 }
 
-label, input {
-    display: block;
-}
-
-label {
-    margin-top: 0.5em;    
-}
-
-input {
-    height: 2em;
-}
+label, input { display: block; }
+label { margin-top: 0.5em; }
+input { height: 2em; }
 
 form p {
     background-color: #FED4B2;
@@ -65,4 +57,3 @@ span {
     background-color: #FFF0F0;
     padding: 0.3em;
 }
-
